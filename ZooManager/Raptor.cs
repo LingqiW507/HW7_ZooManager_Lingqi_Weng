@@ -24,21 +24,21 @@ namespace ZooManager
         {
             foreach (string prey in preys)
             {
-                    if (Game.Seek(location.x, location.y, Direction.up, prey))
+                    if (Seek(location.x, location.y, Direction.up, prey))
                     {
-                        Game.Attack(this, Direction.up);
+                        Attack(this, Direction.up);
                     }
-                    else if (Game.Seek(location.x, location.y, Direction.down, prey))
+                    else if (Seek(location.x, location.y, Direction.down, prey))
                     {
-                        Game.Attack(this, Direction.down);
+                        Attack(this, Direction.down);
                     }
-                    else if (Game.Seek(location.x, location.y, Direction.left, prey))
+                    else if (Seek(location.x, location.y, Direction.left, prey))
                     {
-                        Game.Attack(this, Direction.left);
+                        Attack(this, Direction.left);
                     }
-                    else if (Game.Seek(location.x, location.y, Direction.right, prey))
+                    else if (Seek(location.x, location.y, Direction.right, prey))
                     {
-                        Game.Attack(this, Direction.right);
+                        Attack(this, Direction.right);
                     }
                 
             }

@@ -114,13 +114,17 @@
                             <td>
                                 <button @onclick="@(() => Game.ZoneClick(a))"
                                         type="button" class="btn btn-outline-dark">
-                                    <h2>@a.emoji<sup>@a.rtLabel</sup></h2>
+                                    @*bootstrap class "text-primary" means change the text color in blue. https://getbootstrap.com/docs/4.0/utilities/colors/*@
+                                    <h4>@a.emoji<sup>@a.rtLabel</sup> <sub class="text-primary">@a.tbLabel</sub></h4>@*r.show the number of turns on the board*@
                                 </button>
                             </td>
                         }
                     </tr>
                 }
             </table>
+            @*bootstrap class "text-center" means put the text in the middle.
+                https://getbootstrap.com/docs/4.0/utilities/text/#text-alignment*@
+            <p class="text-center">Black number represents reaction time. Blue number represents turns on the board</p>
         </div>
     </div>
 </div>

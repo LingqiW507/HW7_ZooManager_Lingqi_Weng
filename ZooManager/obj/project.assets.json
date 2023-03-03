@@ -1150,11 +1150,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/maggieweng/Downloads/W7_ZooManager_HW/ZooManager/ZooManager.csproj",
+      "projectUniqueName": "/Users/maggieweng/Desktop/W7_ZooManager_Lingqi_Weng/HW7_ZooManager_Lingqi_Weng/ZooManager/ZooManager.csproj",
       "projectName": "ZooManager",
-      "projectPath": "/Users/maggieweng/Downloads/W7_ZooManager_HW/ZooManager/ZooManager.csproj",
+      "projectPath": "/Users/maggieweng/Desktop/W7_ZooManager_Lingqi_Weng/HW7_ZooManager_Lingqi_Weng/ZooManager/ZooManager.csproj",
       "packagesPath": "/Users/maggieweng/.nuget/packages/",
-      "outputPath": "/Users/maggieweng/Downloads/W7_ZooManager_HW/ZooManager/obj/",
+      "outputPath": "/Users/maggieweng/Desktop/W7_ZooManager_Lingqi_Weng/HW7_ZooManager_Lingqi_Weng/ZooManager/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/maggieweng/.config/NuGet/NuGet.Config"

@@ -37,21 +37,21 @@ namespace ZooManager
         {
             foreach (string predator in predators)
                 {
-                if (Game.Seek(location.x, location.y, Direction.up, predator))
+                if (Seek(location.x, location.y, Direction.up, predator))
                 {
-                    if (Game.Retreat(this, Direction.down)) return;
+                    if (Retreat(this, Direction.down)) return;
                 }
-                if (Game.Seek(location.x, location.y, Direction.down, predator))
+                if (Seek(location.x, location.y, Direction.down, predator))
                 {
-                    if (Game.Retreat(this, Direction.up)) return;
+                    if (Retreat(this, Direction.up)) return;
                 }
-                if (Game.Seek(location.x, location.y, Direction.left, predator))
+                if (Seek(location.x, location.y, Direction.left, predator))
                 {
-                    if (Game.Retreat(this, Direction.right)) return;
+                    if (Retreat(this, Direction.right)) return;
                 }
-                if (Game.Seek(location.x, location.y, Direction.right, predator))
+                if (Seek(location.x, location.y, Direction.right, predator))
                 {
-                    if (Game.Retreat(this, Direction.left)) return;
+                    if (Retreat(this, Direction.left)) return;
                 }
             }
         }

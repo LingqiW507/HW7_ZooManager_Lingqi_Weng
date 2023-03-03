@@ -195,11 +195,11 @@
       "mscorlib.dll": "sha256-zMI\/dXK7DoZZ9Qm9U9\/jRN4iQ9Ss3w8\/rwQQxC6SW9Y=",
       "netstandard.dll": "sha256-W3q3PN+lpRB+tRJEIhtMgYOGFv0pauEeeCS9iIRkKAM=",
       "System.Private.CoreLib.dll": "sha256-9rUJv1mXEQdGt\/kWiJ1ITPPzp3cAi3lSmqHVTisp7w0=",
-      "ZooManager.dll": "sha256-m5bl+5lxoENXct+lWGFsOM6eJ8VcG+ZoR2dVhknb02s="
+      "ZooManager.dll": "sha256-PPcZYk8ZnyU9v61AEwPHks2b\/vjjQkrjwqzV7oB5QZs="
     },
     "lazyAssembly": null,
     "pdb": {
-      "ZooManager.pdb": "sha256-yNwfPRC3OFtpFEXc54oqjz3UL++fhuG4tWbc+Rzep8k="
+      "ZooManager.pdb": "sha256-wxEzkfejZzliCdQIbdb9yomO96Az9zY2xC0Fi96ndvk="
     },
     "runtime": {
       "dotnet.timezones.blat": "sha256-8oJip361m8OrfLRJOuIeswWKaoxtT27\/wINCxhn+s4c=",

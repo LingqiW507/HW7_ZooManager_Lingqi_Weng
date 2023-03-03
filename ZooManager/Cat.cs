@@ -37,70 +37,70 @@ namespace ZooManager
         {
             foreach (string prey in preys)
             {
-                if (Game.Seek(location.x, location.y, Direction.up, "raptor"))
+                if (Seek(location.x, location.y, Direction.up, "raptor"))
                 {
-                    if (Game.Seek(location.x, location.y, Direction.down, prey))
+                    if (Seek(location.x, location.y, Direction.down, prey))
                     {
-                        Game.Attack(this, Direction.down);
+                        Attack(this, Direction.down);
                         return true;
                     }
                     
-                    if (Game.Retreat(this, Direction.down)) return true;
+                    if (Retreat(this, Direction.down)) return true;
                 }
-                if (Game.Seek(location.x, location.y, Direction.down, "raptor"))
+                if (Seek(location.x, location.y, Direction.down, "raptor"))
                 {
-                    if (Game.Seek(location.x, location.y, Direction.up, prey))
+                    if (Seek(location.x, location.y, Direction.up, prey))
                     {
-                        Game.Attack(this, Direction.up);
+                        Attack(this, Direction.up);
                         return true;
                     }
-                    if (Game.Retreat(this, Direction.up)) return true;
+                    if (Retreat(this, Direction.up)) return true;
                 }
-                if (Game.Seek(location.x, location.y, Direction.left, "raptor"))
+                if (Seek(location.x, location.y, Direction.left, "raptor"))
                 {
-                    if (Game.Seek(location.x, location.y, Direction.right, prey))
+                    if (Seek(location.x, location.y, Direction.right, prey))
                     {
-                        Game.Attack(this, Direction.right);
+                        Attack(this, Direction.right);
                         return true;
                     }
-                    if (Game.Retreat(this, Direction.right)) return true;
+                    if (Retreat(this, Direction.right)) return true;
                 }
-                if (Game.Seek(location.x, location.y, Direction.right, "raptor"))
+                if (Seek(location.x, location.y, Direction.right, "raptor"))
                 {
-                    if (Game.Seek(location.x, location.y, Direction.left, prey))
+                    if (Seek(location.x, location.y, Direction.left, prey))
                     {
-                        Game.Attack(this, Direction.left);
+                        Attack(this, Direction.left);
                         return true;
                     }
-                    if (Game.Retreat(this, Direction.left)) return true;
+                    if (Retreat(this, Direction.left)) return true;
                 }
             }
             
             return false;//no flee
         }
 
-        /*public void Hunt()
+        public void Hunt()
         {
             foreach (string prey in preys)
             {
-                if (Game.Seek(location.x, location.y, Direction.up, prey))
+                if (Seek(location.x, location.y, Direction.up, prey))
                 {
-                    Game.Attack(this, Direction.up);
+                    Attack(this, Direction.up);
                 }
-                else if (Game.Seek(location.x, location.y, Direction.down, prey))
+                else if (Seek(location.x, location.y, Direction.down, prey))
                 {
-                    Game.Attack(this, Direction.down);
+                    Attack(this, Direction.down);
                 }
-                else if (Game.Seek(location.x, location.y, Direction.left, prey))
+                else if (Seek(location.x, location.y, Direction.left, prey))
                 {
-                    Game.Attack(this, Direction.left);
+                    Attack(this, Direction.left);
                 }
-                else if (Game.Seek(location.x, location.y, Direction.right, prey))
+                else if (Seek(location.x, location.y, Direction.right, prey))
                 {
-                    Game.Attack(this, Direction.right);
+                    Attack(this, Direction.right);
                 }
             }
-        }*/
+        }
     }
 }
 

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "d/OorkuccDHKibwPNUOnutT2bHl8ahnHWfBH8+QLPTK5QAlgvjHLWWPh8yS41HWNriC+Ut6CxZhegjb6U7mJGw==",
+  "dgSpecHash": "3Z3ZwT1iE7DugHnzADpWuGDcGRwzeYd+vRFuET7UlmssoqE5ohcAgP3NKhuWYcW228WsdOBpBVtWxMrPZE3Ozg==",
   "success": true,
-  "projectFilePath": "/Users/maggieweng/Downloads/W7_ZooManager_HW/ZooManager/ZooManager.csproj",
+  "projectFilePath": "/Users/maggieweng/Desktop/W7_ZooManager_Lingqi_Weng/HW7_ZooManager_Lingqi_Weng/ZooManager/ZooManager.csproj",
   "expectedPackageFiles": [
     "/Users/maggieweng/.nuget/packages/microsoft.aspnetcore.authorization/5.0.17/microsoft.aspnetcore.authorization.5.0.17.nupkg.sha512",
     "/Users/maggieweng/.nuget/packages/microsoft.aspnetcore.components/5.0.17/microsoft.aspnetcore.components.5.0.17.nupkg.sha512",

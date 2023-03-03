@@ -25,13 +25,22 @@ namespace ZooManager
                 return occupant.emoji;
             }
         }
-
+        //reaction time label
         public string rtLabel
         {
             get
             {
                 if (occupant == null) return "";
                 return occupant.reactionTime.ToString();
+            }
+        }
+        //r.turns on board table
+        public string tbLabel
+        {
+            get
+            {
+                if (occupant == null) return "";
+                return occupant.TurnsOnBoard.ToString();
             }
         }
 
